@@ -23,3 +23,5 @@ jobs:
 
       - name: Run Python Program
         run: python app.py
+env:
+  MY_SECRET: ${{ secrets.MY_SECRET }}
