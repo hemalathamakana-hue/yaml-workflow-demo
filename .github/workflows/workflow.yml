@@ -22,6 +22,6 @@ jobs:
           python-version: '3.12'
 
       - name: Run Python Program
-       env:
-  MY_SECRET: ${{ secrets.MY_SECRET }}
-run: python app.py
+        env:
+          MY_SECRET: ${{ secrets.MY_SECRET }}
+        run: python app.py
